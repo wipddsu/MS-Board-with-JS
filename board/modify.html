@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modify</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  </head>
+  <body class="container mt-5">
+    <h1 class="mb-4"><a href="#" class="text-dark">MS Board</a></h1>
+
+    <h2>게시글 수정</h2>
+
+    <form id="modifyForm" class="mb-4">
+      <div class="form-group">
+        <label for="subject">제목:</label>
+        <input type="text" class="form-control" id="subject" name="subject" />
+      </div>
+      <div class="form-group">
+        <label for="writer">작성자:</label>
+        <input type="text" class="form-control" id="writer" name="writer" />
+      </div>
+      <div class="form-group">
+        <label for="content">내용:</label>
+        <textarea class="form-control" id="content" name="content"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">수정완료</button>
+    </form>
+
+    <button id="cancel" class="btn btn-secondary">취소</ㅠ>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../public/js/modify.js"></script>
+  </body>
+</html>
