@@ -81,7 +81,7 @@ function submitList(e) {
     localStorage.setItem('boards', JSON.stringify(boards)); // 로컬스토리지에 boards 객체 저장
 
     // 작성한 글로 이동
-    location.href = `/board/view.html?idx=${index}`;
+    location.href = `view.html?idx=${index}`;
   } catch (err) {
     alert(err.message);
     console.error(err);
