@@ -62,7 +62,7 @@ deleteBtn.addEventListener('click', deleteHandler);
 
 // 게시글 수정 페이지 이동 이벤트 핸들러
 function updateHandler() {
-  location.href = `/modify.html?idx=${listIdx}`;
+  location.href = `modify.html?idx=${listIdx}`;
 }
 
 updateBtn.addEventListener('click', updateHandler);
