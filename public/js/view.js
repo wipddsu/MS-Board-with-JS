@@ -55,14 +55,14 @@ function deleteHandler(e) {
 
   // 로컬 스토리지에 업데이트된 데이터 저장
   localStorage.setItem('boards', JSON.stringify(parsing));
-  location.href = `/board/list.html`;
+  location.href = `../board/list.html`;
 }
 
 deleteBtn.addEventListener('click', deleteHandler);
 
 // 게시글 수정 페이지 이동 이벤트 핸들러
 function updateHandler() {
-  location.href = `modify.html?idx=${listIdx}`;
+  location.href = `../board/modify.html?idx=${listIdx}`;
 }
 
 updateBtn.addEventListener('click', updateHandler);
